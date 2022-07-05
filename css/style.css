@@ -1,0 +1,16 @@
+/*** == Font Integration Start == ***/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+/*** == Font Integration End == ***/
+
+/*** == Common CSS Start == ***/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    width: 1124px;
+    margin: 0 auto;
+}
+/*** == Common CSS End == ***/
+
+

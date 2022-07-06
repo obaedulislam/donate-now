@@ -164,6 +164,7 @@ button {
 /*** == Our Donation CSS End == ***/
 
 
+
 /*** == Get Update CSS Start == ***/
 .get-update{
     padding-bottom: 100px;
@@ -208,5 +209,22 @@ button {
 /*** == Get Update CSS End == ***/
 
 
+/*** == Footer CSS Start == ***/
+.footer-section{
+    padding: 50px;
+    background-color: #0B0D17;
+    text-align: center;
+}
+.footer-section h3{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #FF5959;
+}
+.footer-section p{
+    font-size: 14px;
+    font-weight: 300px;
+    color: #D9DBE1;
+}
+/*** == Footer CSS End == ***/
 
 

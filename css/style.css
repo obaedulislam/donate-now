@@ -1,5 +1,12 @@
 /*** == Font Integration Start == ***/
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Poppins Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Lobster Font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 /*** == Font Integration End == ***/
 
 /*** == Common CSS Start == ***/
@@ -7,10 +14,78 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    width: 1124px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
     margin: 0 auto;
 }
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    line-height: 78px;
+    color: #fff;
+}
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    line-height: 54px;
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+    color:  #707070;
+}
+button {
+    margin-top: 30px;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FF5959;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+.flex-content{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
+.common-margin{
+    margin-top: 15px;
+}
 /*** == Common CSS End == ***/
+
+
+/*** == Hero CSS Start == ***/
+.hero-section{
+    background-image:
+            linear-gradient(to bottom, rgba(3, 6, 22, 0.137), rgba(0, 0, 0, 0.878)),
+            url('../images/donation-banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero-content, .today-content{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
+.focus-content{
+    margin: 0 auto;
+}
+.hero-content .focus-content p{
+    color: #fff;
+}
+.focus-content a button:hover{
+    background-color: #fff;
+    color: #FF5959;
+}
+/*** == Hero CSS End == ***/
 
 

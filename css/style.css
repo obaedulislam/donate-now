@@ -22,6 +22,7 @@ body{
 h1{
     font-family: 'Inter', sans-serif;
     font-size: 65px;
+    text-transform: capitalize;
     line-height: 78px;
     color: #fff;
 }
@@ -36,7 +37,7 @@ p{
     color:  #707070;
 }
 button {
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 15px 25px;
     font-size: 20px;
     font-weight: 700;
@@ -95,14 +96,14 @@ button {
     padding: 100px 0;
 }
 .today-pricing{
-    margin: 20px auto;
+    margin: 50px auto;
     margin-top: ;
     display: flex;
 } 
 .single-price {
-    padding: 40px 20px;
-    margin: 0 20px;
-    width: 150px;
+    padding: 40px 10px;
+    margin: 0 10px;
+    width: 130px;
     background-color: #FAFAFA;
     border-radius: 5px;
     border: 2px solid #FAFAFA;
@@ -143,10 +144,14 @@ button {
     margin-top: 50px;
 }
 .donation-type .single-donation-type{
+    width: 33%;
     padding: 50px 20px;
     text-align: left;
     border-radius: 5px;
     margin: 0 10px;
+}
+.donation-type .single-donation-type:nth-child(2){
+    width: 34%;
 }
 .donation-type .single-donation-type p{
     font-size: 16px;
@@ -163,7 +168,63 @@ button {
 }
 /*** == Our Donation CSS End == ***/
 
-
+/*** == Our Team CSS Start == ***/
+.our-team-section{
+    margin: 0 auto;
+    padding-bottom: 100px;
+    width: 80%;
+}
+.all-member{
+    margin-top: 30px;
+    display: flex;
+}
+.all-member .single-member{
+    width: 25%;
+    margin: 0 10px;
+    padding: 50px 20px;
+    background-color: #FFEEEE;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .5s;
+}
+.all-member .single-member:hover{
+    background-color: #fff;
+    box-shadow: rgba(250, 2, 2, 0.236) 0px 5px 8px;
+}
+.all-member .client-img{
+    text-align: center;
+}
+.all-member .single-member .client-img img{
+    width: 100px;
+    border: 5px solid #FF5959;
+    border-radius: 100%;
+}
+.all-member .single-member p{
+    font-size:14px;
+}
+.all-member ul{
+    text-align: center;
+}
+.all-member ul li{
+    margin: 3px;
+    display: inline-block;
+    list-style: none;
+}
+.all-member ul li a i{
+    width: 35px;
+    height: 35px;
+    padding-top: 7px;
+    text-align: center;
+    background-color: #FF5959;
+    color: #fff;
+    border: 3px solid #FF5959;
+    border-radius: 100%;
+    transition: .3s;
+}
+.all-member ul li a i:hover{
+    background-color: #fff;
+    color: #FF5959;
+}
+/*** == Our Team CSS End == ***/
 
 /*** == Get Update CSS Start == ***/
 .get-update{
@@ -217,7 +278,7 @@ button {
 }
 .footer-section h3{
     font-family: 'Lobster', cursive;
-    font-size: 36px;
+    font-size: 28px;
     color: #FF5959;
 }
 .footer-section p{

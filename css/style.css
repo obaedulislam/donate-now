@@ -89,3 +89,47 @@ button {
 /*** == Hero CSS End == ***/
 
 
+/*** == Donate Today CSS Start == ***/
+.donate-today{
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.today-pricing{
+    margin: 20px auto;
+    margin-top: ;
+    display: flex;
+} 
+.single-price {
+    padding: 40px 20px;
+    margin: 0 20px;
+    width: 150px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    border: 2px solid #FAFAFA;
+    transition: .3s;
+}
+.single-price:hover{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.single-price p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.other-amount input{
+    padding: 5px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.416);
+}
+.other-amount input:focus{
+    outline: none;
+}
+.donate-today a button:hover{
+    background-color: #707070;
+    color: #fff;
+}
+/*** == Donate Today CSS End == ***/
+

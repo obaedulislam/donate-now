@@ -63,7 +63,7 @@ button {
 /*** == Hero CSS Start == ***/
 .hero-section{
     background-image:
-            linear-gradient(to bottom, rgba(3, 6, 22, 0.137), rgba(0, 0, 0, 0.878)),
+            linear-gradient(to bottom, rgba(10, 5, 5, 0.475), rgba(0, 0, 0, 0.7)),
             url('../images/donation-banner.jpg');
     background-size: cover;
     background-position: center center;
@@ -106,12 +106,12 @@ button {
     width: 130px;
     background-color: #FAFAFA;
     border-radius: 5px;
-    border: 2px solid #FAFAFA;
+    border: 3px solid #FAFAFA;
     transition: .3s;
 }
 .single-price:hover{
     background-color: #FFEEEE;
-    border: 2px solid #FF5959;
+    border: 3px solid #FF5959;
 }
 .single-price p{
     font-size: 30px;
@@ -127,6 +127,9 @@ button {
 }
 .other-amount input:focus{
     outline: none;
+}
+.donate-today a button{
+    margin-top: 20px;
 }
 .donate-today a button:hover{
     background-color: #707070;
@@ -144,14 +147,18 @@ button {
     margin-top: 50px;
 }
 .donation-type .single-donation-type{
-    width: 33%;
+    width: 33.33%;
     padding: 50px 20px;
     text-align: left;
     border-radius: 5px;
     margin: 0 10px;
+    transition: .3s;
+}
+.donation-type .single-donation-type:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .donation-type .single-donation-type:nth-child(2){
-    width: 34%;
+    width: 33.34%;
 }
 .donation-type .single-donation-type p{
     font-size: 16px;
@@ -170,12 +177,15 @@ button {
 
 /*** == Our Team CSS Start == ***/
 .our-team-section{
+    padding: 100px 0;
+    background-color: #FAFAFA;
+}
+.our-team{
     margin: 0 auto;
-    padding-bottom: 100px;
     width: 80%;
 }
 .all-member{
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
 }
 .all-member .single-member{
@@ -228,7 +238,7 @@ button {
 
 /*** == Get Update CSS Start == ***/
 .get-update{
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 .get-email{
     width: 60%;
@@ -257,7 +267,7 @@ button {
     background-color: #FF5959;
     border: 0;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     border-radius: 0 5px 5px 0;
 }
